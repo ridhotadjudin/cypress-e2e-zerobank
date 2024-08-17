@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "co": "cypress open",
+    "cr": "cypress run",
+    "crun-login": "cypress run --browser chrome --spec \"cypress/e2e/zerobank-login.cy.js\"",
+    "crun-search": "cypress run --browser chrome --spec \"cypress/e2e/zerobank-search.cy.js\"",
+    "format": "prettier --write \"cypress/**/*.{js,jsx,ts,tsx,json,md}\"",
+    "crun-logout": "cypress run --browser chrome --spec \"cypress/e2e/zerobank-logout.cy.js\"",
+    "crun-navbar": "cypress run --browser chrome --spec \"cypress/e2e/zerobank-navbar.cy.js\""
+  },
+  "dependencies": {
+    "cypress": "^13.13.2"
+  }
+}
