@@ -183,3 +183,11 @@ This project uses the **Cypress built-in test runner** for reporting. Test resul
 Made with ❤️ and ☕ by [Ridho Tadjudin](https://ridhotadjudin.id)
 
 </div>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
