@@ -1,0 +1,14 @@
+node_modules/
+
+# Cypress output
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
